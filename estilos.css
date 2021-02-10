@@ -32,12 +32,14 @@ body{
 }
 
 div>p {
-transition: 2s;
-transition: cubic-bezier(1, 0, 0, 1);
+transition: 2s cubic-bezier(1, 0, 0, 1);
 }
 
 div>p:hover{
   cursor: pointer;
   transform: rotate(180deg);
 
+}
+.continer-colores>div:nth-child(1):hover {
+  background-color:rgb(253, 208, 208)
 }
