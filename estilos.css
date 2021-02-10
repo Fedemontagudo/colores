@@ -9,15 +9,14 @@ body{
 }
 
 .continer-colores > div {
-  background:tomato;
-  font-size: 50px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
+  width: 100vmax;
 }
 
 .continer-colores>div:nth-child(1){
-  background-color: white;
+  background-color: rgb(255, 255, 255,);
 }
 .continer-colores>div:nth-child(2){
   background-color: rgb(253, 208, 208);
@@ -32,3 +31,13 @@ body{
   background-color: rgb(255, 25, 25);
 }
 
+div>p {
+transition: 2s;
+transition: cubic-bezier(1, 0, 0, 1);
+}
+
+div>p:hover{
+  cursor: pointer;
+  transform: rotate(180deg);
+
+}
